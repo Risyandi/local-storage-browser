@@ -1,0 +1,26 @@
+{
+  "name": "local-storage-browser",
+  "version": "1.0.1",
+  "description": "a package library useful for accessing API of local storage in browser.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Risyandi/local-storage-browser.git"
+  },
+  "scripts": {
+    "test": "echo test no requirement"
+  },
+  "keywords": [
+    "local-storage",
+    "storage",
+    "browser-storage",
+    "local",
+    "localStorage"
+  ],
+  "author": {
+    "name": "risyandi",
+    "email": "hello@risyandi.com",
+    "url": "https://risyandi.com/"
+  },
+  "license": "MIT"
+}
