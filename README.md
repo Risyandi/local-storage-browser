@@ -5,6 +5,12 @@ The `localStorage` read-only property of the window interface allows you to acce
 
 `localStorage` is similar to `sessionStorage`, except that while `localStorage` data has no expiration time, `sessionStorage` data gets cleared when the page session ends — that is, when the page is closed. (`localStorage` data for a document loaded in a "*private browsing*" or "*incognito*" session is cleared when the last "*private*" tab is closed.)  [learn more.](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) 
 
+## How to install package from npm
+before we use the library you can install npm or node and the you just typing this command:
+```
+$ npm i local-storage-browser
+```
+
 ## How to use this library
 before we use the library you can import, with this example:
 ```js
