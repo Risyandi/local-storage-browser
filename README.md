@@ -46,3 +46,11 @@ When to know length of items of the storage.
 let result = LocalStorage.length(key, data);
 console.log(result);
 ```
+**F. Key by index**  
+When passed a number n, returns the name of the nth key in a given Storage object. 
+```js
+for (let index = 0; index < LocalStorage.length(data); index++) {
+    let result = LocalStorage.get(LocalStorage.key(index));
+    console.log(result);
+}
+```
