@@ -15,7 +15,8 @@
     "storage",
     "browser-storage",
     "local",
-    "localStorage"
+    "localStorage",
+    "web-storage-api"
   ],
   "author": {
     "name": "risyandi",
