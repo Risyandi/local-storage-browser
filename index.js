@@ -29,4 +29,9 @@ export const LocalStorage = {
         return result
     },
 
+    key(index) {
+        const result = localStorage.key(index);
+        return result;
+    }
+
 }
