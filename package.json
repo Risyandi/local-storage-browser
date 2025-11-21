@@ -1,6 +1,6 @@
 {
   "name": "local-storage-browser",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "a package library useful for accessing API of local storage in browser.",
   "main": "index.js",
   "repository": {
@@ -16,7 +16,9 @@
     "browser-storage",
     "local",
     "localStorage",
-    "web-storage-api"
+    "web-storage-api",
+    "cookies-storage",
+    "session-storage"
   ],
   "author": {
     "name": "risyandi",
