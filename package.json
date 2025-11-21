@@ -23,5 +23,8 @@
     "email": "hello@risyandi.com",
     "url": "https://risyandi.com/"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "license": "MIT"
 }
