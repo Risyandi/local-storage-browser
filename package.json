@@ -1,24 +1,44 @@
 {
   "name": "local-storage-browser",
-  "version": "1.0.4",
-  "description": "a package library useful for accessing API of local storage in browser.",
-  "main": "index.js",
+  "version": "1.1.0",
+  "description": "A comprehensive, lightweight JavaScript library for managing browser storage: LocalStorage, SessionStorage, Cookies, IndexedDB, and WebExtension Storage.",
+  "type": "module",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js",
+      "default": "./index.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "utils",
+    "LICENSE",
+    "README.md"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/Risyandi/local-storage-browser.git"
   },
   "scripts": {
-    "test": "echo test no requirement"
+    "test": "node --test test/*.test.js"
   },
   "keywords": [
     "local-storage",
     "storage",
     "browser-storage",
-    "local",
     "localStorage",
-    "web-storage-api",
+    "session-storage",
     "cookies-storage",
-    "session-storage"
+    "indexeddb",
+    "indexed-db",
+    "chrome-storage",
+    "extension-storage",
+    "webextension",
+    "web-storage-api"
   ],
   "author": {
     "name": "risyandi",
