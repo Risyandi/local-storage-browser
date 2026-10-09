@@ -22,6 +22,11 @@
 
 ---
 
+Does polylinai work in Node.js, Bun and Deno?  
+Report link npm compatibility by **compatlab.me** [Check Report](https://compatlab.me/reports/414f851c-9693-4786-85c2-b30d8827142a)
+
+---
+
 ## 📑 Table of Contents
 
 - [Key Features](#-key-features)
